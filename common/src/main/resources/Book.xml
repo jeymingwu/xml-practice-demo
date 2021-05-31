@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bookstore>
+    <book id="1">
+        <name>Java 程序开发</name>
+        <price>89</price>
+    </book>
+    <book id="2">
+        <name>Spring 实践</name>
+        <price>77</price>
+    </book>
+    <book id="3">
+        <name>大话设计模式</name>
+        <price>97</price>
+    </book>
+</bookstore>
