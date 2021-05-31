@@ -16,7 +16,7 @@ XML 解析与生成练习 Demo
     + 优点：树结构，灵活性强，更好理解、掌握；可随机读取；
     + 缺点：一次性读取，消耗较多内存，易造成内存溢出；对机器性能要求高；
 
-[DOM 解析 XML Demo](./dom/src/main/java/com/example/dom/ParseXML.java)
+[DOM 解析 XML Demo](./dom/src/main/java/com/example/dom/DOMParseXML.java)
 
 ### SAX 解析
 

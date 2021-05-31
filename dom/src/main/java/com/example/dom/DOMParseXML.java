@@ -22,7 +22,7 @@ import java.util.List;
  * @date : 2021-05-28
  **/
 
-public class ParseXML<T> {
+public class DOMParseXML<T> {
 
     private static DocumentBuilderFactory factory;
     private static StringBuilder sb;
@@ -109,7 +109,7 @@ public class ParseXML<T> {
     }
 
     public static void main(String[] args) {
-        ParseXML<Book> parseXML = new ParseXML();
+        DOMParseXML<Book> parseXML = new DOMParseXML();
 
         ArrayList<Book> books = new ArrayList<Book>();
 
