@@ -13,6 +13,7 @@
     <modules>
         <module>common</module>
         <module>dom</module>
+        <module>sax</module>
     </modules>
     
 </project>
