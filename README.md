@@ -40,7 +40,7 @@ XML 解析与生成练习 Demo
   + 优点：使用具体类简化了 DOM 的 API；大量使用 Java 集合；
   + 缺点：灵活性较差；性能较差；
 
-![JDOM 解析 XML Demo](./jdom/src/main/java/com/example/jdom/JDOMParseXML.java)
+[JDOM 解析 XML Demo](./jdom/src/main/java/com/example/jdom/JDOMParseXML.java)
 
 ### DOM4J 解析
 
@@ -52,7 +52,7 @@ XML 解析与生成练习 Demo
   + 优点：大量使用 Java 集合框架、提供高性能的方法；支持 XPATH；性能优异、灵活性好、功能强大、终端易用等；
   + 缺点：大量使用抽象类和接口表示，API 复杂；
 
-![DOM4J 解析 XML Demo](./dom4j/src/main/java/com/example/dom4j/DOM4JParseXML.java) 
+[DOM4J 解析 XML Demo](./dom4j/src/main/java/com/example/dom4j/DOM4JParseXML.java) 
 
 ## XML 解析总结：
 
@@ -60,3 +60,8 @@ XML 解析与生成练习 Demo
 + SAX 顺序访问，事件驱动解析；适合内容较大的 XML 文档；顺序访问机制，造成只能单向遍历，无法直接定位；
 + JDOM 适用于内容较小的 XML 文档，（个人理解：DOM 和 SAX 的结合体，以 Java 集合框架的形式改进）使用 SAX 解析器解析，通过 Java 集合框架简化 DOM 的 API；
 + DOM4J 适用于内容较大的 XML 文档，业界较流行的解析 XML 的方式；性能优异、灵活性好、功能强大等优点；其内部实现较复杂；
+
+参考链接：
+
++ [XML解析——Java中XML的四种解析方式](https://www.cnblogs.com/longqingyang/p/5577937.html)
++ [JAVA解析xml的五种方式比较](https://www.cnblogs.com/longqingyang/p/5577947.html)
