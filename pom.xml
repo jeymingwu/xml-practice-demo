@@ -15,6 +15,7 @@
         <module>dom</module>
         <module>sax</module>
         <module>jdom</module>
+        <module>dom4j</module>
     </modules>
     
 </project>

@@ -44,3 +44,19 @@ XML 解析与生成练习 Demo
 
 ### DOM4J 解析
 
++ DOM4J：Document Object Model For Java；
++ 简单易用，采用 Java 集合框架，并完全支持 DOM、SAX等；
++ 需导入 DOM4J 依赖包；
++ 总结：
+  + 性能较优的实现；
+  + 优点：大量使用 Java 集合框架、提供高性能的方法；支持 XPATH；性能优异、灵活性好、功能强大、终端易用等；
+  + 缺点：大量使用抽象类和接口表示，API 复杂；
+
+![DOM4J 解析 XML Demo](./dom4j/src/main/java/com/example/dom4j/DOM4JParseXML.java) 
+
+## XML 解析总结：
+
++ DOM 适用于内容较小的 XML 文档，可随机读取，牺牲内存大小换取高灵活性；内容较大的 XML 文档并不适合，因其一次性全部加载的特性，易造成内存溢出，机器卡顿等；
++ SAX 顺序访问，事件驱动解析；适合内容较大的 XML 文档；顺序访问机制，造成只能单向遍历，无法直接定位；
++ JDOM 适用于内容较小的 XML 文档，（个人理解：DOM 和 SAX 的结合体，以 Java 集合框架的形式改进）使用 SAX 解析器解析，通过 Java 集合框架简化 DOM 的 API；
++ DOM4J 适用于内容较大的 XML 文档，业界较流行的解析 XML 的方式；性能优异、灵活性好、功能强大等优点；其内部实现较复杂；
