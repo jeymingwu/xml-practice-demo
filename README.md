@@ -63,5 +63,6 @@ XML 解析与生成练习 Demo
 
 参考链接：
 
++ [XML 解析与生成的四种实现方式](https://gitee.com/jinmingwu/Java-XML-Demo)
 + [XML解析——Java中XML的四种解析方式](https://www.cnblogs.com/longqingyang/p/5577937.html)
 + [JAVA解析xml的五种方式比较](https://www.cnblogs.com/longqingyang/p/5577947.html)
