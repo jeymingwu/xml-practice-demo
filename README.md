@@ -32,5 +32,15 @@ XML 解析与生成练习 Demo
 
 ### JDOM 解析
 
++ JDOM：Java-based Document Object Model，Java 特定的文档对象模型；
++ 自身不包含 XML 解析器，使用 SAX 解析；
++ 需导入 JDOM 依赖包；
++ 总结：
+  + 无解析器的解析；以 DOM 方式 SAX 内核解析 XML；
+  + 优点：使用具体类简化了 DOM 的 API；大量使用 Java 集合；
+  + 缺点：灵活性较差；性能较差；
+
+![JDOM 解析 XML Demo](./jdom/src/main/java/com/example/jdom/JDOMParseXML.java)
+
 ### DOM4J 解析
 
